@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    height: 100vh;
+}
+
+.sidebar{
+    background-color: #0ea5e9;
+    color: white;
+    font-size: 1.75rem
+}
+
+.sidebar i{
+    padding-right: 1rem;
+}
+
+.sidebar li{
+    list-style: none;
+    padding-top: 1rem;
+}
+
+.sidebar-header{
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.sidebar-list{
+    padding-bottom: 4rem;
+}
+
+
+
+.content{
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+
+.content-top{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.sidebar-header{
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 3rem;
+}
+
+.top-upper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.search-bar-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search-bar-container *{
+    height: 2rem;
+
+}
+
+#search-icon{
+    font-size: 2rem;
+}
+
+#search-bar{
+    background-color: #d1d5db;
+    height: 2.5rem;
+}
+
+.search-bar-container p{
+    width: 40rem;
+    border-radius: 1rem;
+}
+
+#sloth-pic{
+    width: 4rem;
+    border-radius: 100%;
+}
+
+.notification{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.notification i{
+    color: black;
+    font-size: 2rem;
+}
+
+.notification p{
+    font-size: 1.5rem;
+}
+
+.top-lower{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.greeting{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+#greeting-photo{
+    width: 7rem;
+    border-radius: 100%;
+}
+
+.greeting-message{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.greeting-message :first-child{
+    font-size: 1.5rem;
+}
+
+.greeting-message :last-child{
+    font-size: 2rem;
+}
+
+.buttons-container{
+    display: flex;
+    gap: 3rem;
+}
+
+.buttons{
+    background-color: #0ea5e9;
+    color: white;
+    width: 10rem;
+    height: 4rem;
+    border: none;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.content-main{
+    border: 1px teal solid;
+    background-color: teal;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 3rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
